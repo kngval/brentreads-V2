@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brmain: #f6fd5;
+  --color-brblack: #000000;
+  --color-brsecondary:#5c4035;
+
+}
+
+
+@font-face {
+    font-family: "BowlbyOne";
+}
