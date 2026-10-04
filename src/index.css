@@ -1,13 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brmain: #f6fd5;
-  --color-brblack: #000000;
+  --color-brmain: #382C1A;
+  --color-brtext: #F7F1E8;
   --color-brsecondary:#5c4035;
-
+  --font-bowlby : "BowlbyOne";
+  --font-baskerville : "LibreBaskerville";
 }
 
 
 @font-face {
+    src: url("assets/fonts/BowlbyOne-Regular.ttf") format("truetype");
     font-family: "BowlbyOne";
+    font-style: normal;
+}
+@font-face {
+    src: url("assets/fonts/LibreBaskerville-Regular.ttf") format("truetype");
+    font-family: "LibreBaskerville";
+    font-style: normal;
 }
