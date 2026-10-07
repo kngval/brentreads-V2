@@ -1,17 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --color-brmain: #382C1A;
-  --color-brtext: #F7F1E8;
-  --color-brsecondary:#5c4035;
+  --color-brmain: #EFE6D6;
+  --color-brforeground:#EADFCD;
+  --color-brtext: #000000;
+  --color-brsecondary:#5E4632;
+  --color-brstroke:#B89B7A;
   --font-bowlby : "BowlbyOne";
   --font-baskerville : "LibreBaskerville";
+  --font-ibm : "IBMPlexMono";
+  --font-lora:"Lora";
 }
 
+.dark {
+    --color-brmain: #4A3421;
+    --color-brforeground:#3D2A1C;
+    --color-brtext: #F7F1E8;
+    --color-brsecondary:#E8DCCB;
+    --color-brstroke:#D8B38A;
+}
+
+@font-face {
+    src: url("assets/fonts/Lora.ttf") format("truetype");
+    font-family: "Lora";
+    font-style: normal;
+}
 
 @font-face {
     src: url("assets/fonts/BowlbyOne-Regular.ttf") format("truetype");
     font-family: "BowlbyOne";
+    font-style: normal;
+}
+@font-face {
+    src: url("assets/fonts/IBMPlexMono-Regular.ttf") format("truetype");
+    font-family: "IBMPlexMono";
     font-style: normal;
 }
 @font-face {
