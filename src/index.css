@@ -3,6 +3,7 @@
 
 @theme {
   --color-brmain: #EFE6D6;
+  --opposite-color-brmain: #4A3421;
   --color-brforeground:#EADFCD;
   --color-brtext: #000000;
   --color-brsecondary:#5E4632;
@@ -15,6 +16,7 @@
 
 .dark {
     --color-brmain: #4A3421;
+    --opposite-color-brmain: #EFE6D6;
     --color-brforeground:#3D2A1C;
     --color-brtext: #F7F1E8;
     --color-brsecondary:#E8DCCB;
